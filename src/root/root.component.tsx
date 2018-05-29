@@ -13,7 +13,7 @@ type props = MapDispatchProps &
 
 export class RootComponent extends React.PureComponent<Readonly<props>> {
   componentWillMount() {
-    this.props.action.getUserMe()
+    this.props.action.getUserMeSuccess({ name: '我真厉害' })
   }
 
   render() {

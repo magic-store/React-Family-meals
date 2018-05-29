@@ -1,6 +1,7 @@
 import { combineEpics } from 'redux-observable'
 import { EpicInput } from 'store'
 import { handleActions, createAction, Action } from 'redux-actions'
+import 'rxjs/operator/switchMap'
 
 export type RootState = {
   name: string
@@ -17,13 +18,14 @@ export const action = {
 }
 
 // Epic
-const getUserMeEpic = (action$: EpicInput<any>) =>
-  action$.ofType(action.getUserMe.toString()).switchMap(r => {
-    console.info(r)
+const getUserMeEpic = (action$: EpicInput<any>) => {
+  console.info(action$, 'action$')
+  return action$.ofType(action.getUserMe.toString()).map(r => {
     return action.getUserMeSuccess({
       name: '我是最屌的'
     })
   })
+}
 
 export const epics = combineEpics<any>(getUserMeEpic)
 

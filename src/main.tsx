@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 import * as ReactDOM from 'react-dom'
 import { store, history } from 'store'
 import React from 'react'
+import 'rxjs'
 
 import './common'
 
