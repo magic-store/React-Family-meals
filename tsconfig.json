@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "declaration": false,
+    "noImplicitAny": false,
+    "isolatedModules": false,
+    "removeComments": false,
+    "jsx": "react",
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "lib": [
+      "es5",
+      "dom",
+      "es2015",
+      "esnext.asynciterable"
+    ],
+    "rootDirs": [
+      "src"
+    ]
+  },
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
