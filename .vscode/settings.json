@@ -1,0 +1,119 @@
+{
+  "gitlens.advanced.messages": {
+    "suppressResultsExplorerNotice": true,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "cSpell.userWords": [
+    "agilepage",
+    "airdnb",
+    "alpha",
+    "arrow",
+    "autosize",
+    "cdnurl",
+    "chromedriver",
+    "days",
+    "devtool",
+    "devtools",
+    "disturl",
+    "enddate",
+    "essage",
+    "fastclick",
+    "fetch",
+    "fsck",
+    "github",
+    "happypack",
+    "href",
+    "httpheaders",
+    "lazyexception",
+    "loading",
+    "operadriver",
+    "parens",
+    "pathinfo",
+    "prefession",
+    "purchse",
+    "react",
+    "reactivedb",
+    "readonly",
+    "reflog",
+    "repo",
+    "repos",
+    "reqwest",
+    "reselect",
+    "screenfull",
+    "simditor",
+    "skyfile",
+    "startdate",
+    "styl",
+    "tb",
+    "template",
+    "textarea",
+    "thenby",
+    "tslib",
+    "typeof",
+    "unlimit",
+    "vuepress",
+    "xlink"
+  ],
+  "cSpell.language": "en",
+      // The number of spaces a tab is equal to.
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnType": false,
+    "window.zoomLevel": -1,
+    "workbench.sideBar.location": "left",
+    "workbench.colorTheme": "Dracula",
+    "extensions.ignoreRecommendations": true,
+    "editor.renderIndentGuides": false,
+    "files.associations": {
+      "*.ts": "typescript",
+      "*.vue": "vue",
+      ".prettierrc": "json"
+    },
+    "languageStylus.useSeparator": false,
+    "tslint.enable": true,
+    "team.showWelcomeMessage": false,
+    "gitlens.statusBar.enabled": true,
+    "emmet.syntaxProfiles": {
+      "vue-html": "html",
+      "vue": "html"
+    },
+    "editor.fontSize": 14,
+    // 不关会爆炸的
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "welcomePage",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Menlo",
+    "editor.fontWeight": "normal",
+    "editor.mouseWheelZoom": false,
+    // 显示非css辅助线
+    "guides.active.gutter": true,
+    
+    // 空格小点
+    "editor.renderWhitespace": "boundary",
+    "gitlens.keymap": "alternate",
+    "search.location": "sidebar",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "markdownlint.config": {
+      "MD013": false,
+      "MD033": false
+    },
+    "[json]": {
+      
+    },
+    "json.format.enable": false,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.gitExplorer.files.layout": "auto",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // "editor.renderControlCharacters": true,
+    "stylusSupremacy.insertColons": true, // 是否插入冒号
+    "stylusSupremacy.insertSemicolons": true, // 是否插入分好
+    "stylusSupremacy.insertBraces": false, // 是否插入大括号
+    "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+    "stylusSupremacy.insertNewLineAroundBlocks": true,
+    "diffEditor.ignoreTrimWhitespace": true,// 两个选择器中是否换行
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/zsh" // 使用zsh
+  }
