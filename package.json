@@ -10,7 +10,8 @@
     "start": "NODE_ENV=development CONFIG=beta npm-run-all -p dev:client",
     "test:lint": "gulp tslint",
     "build:test": "rm -rf ./dist; webpack --config webpack.config.js",
-    "dev:test": "webpack-dev-server --config webpack.config.js"
+    "dev:test": "webpack-dev-server --config webpack.config.js",
+    "analysis": "webpack --config ./tools/webpack.analyzer.js"
   },
   "devDependencies": {
     "@types/react": "^16.3.13",
@@ -65,5 +66,9 @@
     "webpack-dev-server": "^3.1.3",
     "webpack-merge": "^4.1.2",
     "webpack-monitor": "^1.0.14"
+  },
+  "dependencies": {
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
+    "webpack-bundle-analyzer": "^2.13.1"
   }
 }

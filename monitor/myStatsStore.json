@@ -1,0 +1,875 @@
+[
+  {
+    "timeStamp": 1527770911220,
+    "time": 4914,
+    "hash": "dd192a4633814837e879",
+    "errors": [],
+    "size": 2049463,
+    "assets": [
+      {
+        "name": "js/common.09ef5fb8.js",
+        "chunks": [
+          0
+        ],
+        "size": 475901,
+        "minified": true
+      },
+      {
+        "name": "js/main.f5e1c48f.js",
+        "chunks": [
+          1
+        ],
+        "size": 1572646,
+        "minified": true
+      },
+      {
+        "name": "css/main.f5e1c48f.css",
+        "chunks": [
+          1
+        ],
+        "size": 134
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 782
+      }
+    ],
+    "chunks": [
+      {
+        "size": 184595,
+        "files": [
+          "js/common.09ef5fb8.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/rxjs/Observable.js",
+            "size": 11410,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/tslib/tslib.es6.js",
+            "size": 8396,
+            "id": 5
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 489,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/rxjs/Subscriber.js",
+            "size": 9695,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/rxjs/util/root.js",
+            "size": 885,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/rxjs/Observer.js",
+            "size": 193,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1506,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 959,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/rxjs/symbol/rxSubscriber.js",
+            "size": 363,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/rxjs/symbol/observable.js",
+            "size": 718,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 332,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/rxjs/util/isFunction.js",
+            "size": 148,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/rxjs/Subscription.js",
+            "size": 8183,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/rxjs/util/isObject.js",
+            "size": 151,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/rxjs/util/errorObject.js",
+            "size": 177,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/rxjs/symbol/iterator.js",
+            "size": 1339,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react-dom/index.js",
+            "size": 1363,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/rxjs/operator/map.js",
+            "size": 3289,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/rxjs/operator/switchMap.js",
+            "size": 5877,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/rxjs/util/isArray.js",
+            "size": 146,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/rxjs/add/operator/map.js",
+            "size": 187,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/rxjs/OuterSubscriber.js",
+            "size": 1107,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/rxjs/util/subscribeToResult.js",
+            "size": 2980,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/rxjs/util/isArrayLike.js",
+            "size": 137,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/rxjs/util/isPromise.js",
+            "size": 207,
+            "id": 39
+          },
+          {
+            "name": "./src/common.ts",
+            "size": 247,
+            "id": 51
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 5668,
+            "id": 52
+          },
+          {
+            "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+            "size": 101020,
+            "id": 53
+          },
+          {
+            "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
+            "size": 935,
+            "id": 54
+          },
+          {
+            "name": "./node_modules/fbjs/lib/getActiveElement.js",
+            "size": 912,
+            "id": 55
+          },
+          {
+            "name": "./node_modules/fbjs/lib/shallowEqual.js",
+            "size": 1616,
+            "id": 56
+          },
+          {
+            "name": "./node_modules/fbjs/lib/containsNode.js",
+            "size": 923,
+            "id": 57
+          },
+          {
+            "name": "./node_modules/fbjs/lib/isTextNode.js",
+            "size": 479,
+            "id": 58
+          },
+          {
+            "name": "./node_modules/fbjs/lib/isNode.js",
+            "size": 702,
+            "id": 59
+          },
+          {
+            "name": "./node_modules/classnames/index.js",
+            "size": 1102,
+            "id": 60
+          },
+          {
+            "name": "./node_modules/rxjs/util/toSubscriber.js",
+            "size": 760,
+            "id": 61
+          },
+          {
+            "name": "./node_modules/rxjs/util/tryCatch.js",
+            "size": 422,
+            "id": 62
+          },
+          {
+            "name": "./node_modules/rxjs/util/UnsubscriptionError.js",
+            "size": 1068,
+            "id": 63
+          },
+          {
+            "name": "./node_modules/rxjs/add/operator/do.js",
+            "size": 232,
+            "id": 64
+          },
+          {
+            "name": "./node_modules/rxjs/operator/do.js",
+            "size": 4434,
+            "id": 65
+          },
+          {
+            "name": "./node_modules/rxjs/add/operator/switchMap.js",
+            "size": 223,
+            "id": 66
+          },
+          {
+            "name": "./node_modules/rxjs/InnerSubscriber.js",
+            "size": 1289,
+            "id": 67
+          },
+          {
+            "name": "multi ./src/common",
+            "size": 28,
+            "id": 92
+          }
+        ]
+      },
+      {
+        "size": 583587,
+        "files": [
+          "js/main.f5e1c48f.js",
+          "css/main.f5e1c48f.css"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 956,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/warning/browser.js",
+            "size": 1807,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/invariant/browser.js",
+            "size": 1397,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/rxjs/Observable.js",
+            "size": 11410,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/tslib/tslib.es6.js",
+            "size": 8396,
+            "id": 5
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 489,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/rxjs/Subscriber.js",
+            "size": 9695,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/rxjs/util/root.js",
+            "size": 885,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/history/PathUtils.js",
+            "size": 1768,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/react-router/es/Router.js",
+            "size": 3804,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/react-router/es/matchPath.js",
+            "size": 2051,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/lodash-es/_root.js",
+            "size": 298,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/lodash-es/_baseGetTag.js + 3 modules",
+            "size": 2611,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/rxjs/Observer.js",
+            "size": 193,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/lodash-es/isObjectLike.js",
+            "size": 612,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/redux/es/redux.js",
+            "size": 22798,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/fbjs/lib/invariant.js",
+            "size": 1506,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyFunction.js",
+            "size": 959,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/rxjs/symbol/rxSubscriber.js",
+            "size": 363,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/rxjs/symbol/observable.js",
+            "size": 718,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/react-router/es/Route.js",
+            "size": 6023,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/fbjs/lib/emptyObject.js",
+            "size": 332,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/rxjs/util/isFunction.js",
+            "size": 148,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/rxjs/Subscription.js",
+            "size": 8183,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/rxjs/util/isObject.js",
+            "size": 151,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/rxjs/util/errorObject.js",
+            "size": 177,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/rxjs/symbol/iterator.js",
+            "size": 1339,
+            "id": 28
+          },
+          {
+            "name": "./node_modules/react-dom/index.js",
+            "size": 1363,
+            "id": 29
+          },
+          {
+            "name": "./node_modules/rxjs/operator/map.js",
+            "size": 3289,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/rxjs/operator/switchMap.js",
+            "size": 5877,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react-redux/es/index.js + 14 modules",
+            "size": 38343,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/index.js",
+            "size": 6755,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/rxjs/util/isArray.js",
+            "size": 146,
+            "id": 34
+          },
+          {
+            "name": "./node_modules/rxjs/add/operator/map.js",
+            "size": 187,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/rxjs/OuterSubscriber.js",
+            "size": 1107,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/rxjs/util/subscribeToResult.js",
+            "size": 2980,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/rxjs/util/isArrayLike.js",
+            "size": 137,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/rxjs/util/isPromise.js",
+            "size": 207,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/actions.js",
+            "size": 7217,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/react-router/es/MemoryRouter.js",
+            "size": 2414,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/react-router/es/Prompt.js",
+            "size": 2685,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/react-router/es/StaticRouter.js",
+            "size": 6327,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/react-router/es/Switch.js",
+            "size": 3290,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/react-router/es/withRouter.js",
+            "size": 1400,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/react-router/es/Redirect.js + 8 modules",
+            "size": 35843,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/hoist-non-react-statics/index.js",
+            "size": 2602,
+            "id": 47
+          },
+          {
+            "name": "./node_modules/history/createBrowserHistory.js",
+            "size": 9751,
+            "id": 48
+          },
+          {
+            "name": "./node_modules/lodash-es/_nodeUtil.js",
+            "size": 993,
+            "id": 49
+          },
+          {
+            "name": "./node_modules/lodash-es/isPlainObject.js + 1 modules",
+            "size": 1824,
+            "id": 50
+          },
+          {
+            "name": "./src/common.ts",
+            "size": 247,
+            "id": 51
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 5668,
+            "id": 52
+          },
+          {
+            "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+            "size": 101020,
+            "id": 53
+          },
+          {
+            "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
+            "size": 935,
+            "id": 54
+          },
+          {
+            "name": "./node_modules/fbjs/lib/getActiveElement.js",
+            "size": 912,
+            "id": 55
+          },
+          {
+            "name": "./node_modules/fbjs/lib/shallowEqual.js",
+            "size": 1616,
+            "id": 56
+          },
+          {
+            "name": "./node_modules/fbjs/lib/containsNode.js",
+            "size": 923,
+            "id": 57
+          },
+          {
+            "name": "./node_modules/fbjs/lib/isTextNode.js",
+            "size": 479,
+            "id": 58
+          },
+          {
+            "name": "./node_modules/fbjs/lib/isNode.js",
+            "size": 702,
+            "id": 59
+          },
+          {
+            "name": "./node_modules/classnames/index.js",
+            "size": 1102,
+            "id": 60
+          },
+          {
+            "name": "./node_modules/rxjs/util/toSubscriber.js",
+            "size": 760,
+            "id": 61
+          },
+          {
+            "name": "./node_modules/rxjs/util/tryCatch.js",
+            "size": 422,
+            "id": 62
+          },
+          {
+            "name": "./node_modules/rxjs/util/UnsubscriptionError.js",
+            "size": 1068,
+            "id": 63
+          },
+          {
+            "name": "./node_modules/rxjs/add/operator/do.js",
+            "size": 232,
+            "id": 64
+          },
+          {
+            "name": "./node_modules/rxjs/operator/do.js",
+            "size": 4434,
+            "id": 65
+          },
+          {
+            "name": "./node_modules/rxjs/add/operator/switchMap.js",
+            "size": 223,
+            "id": 66
+          },
+          {
+            "name": "./node_modules/rxjs/InnerSubscriber.js",
+            "size": 1289,
+            "id": 67
+          },
+          {
+            "name": "(webpack)/buildin/harmony-module.js",
+            "size": 573,
+            "id": 68
+          },
+          {
+            "name": "./node_modules/history/LocationUtils.js",
+            "size": 2647,
+            "id": 69
+          },
+          {
+            "name": "./node_modules/history/createTransitionManager.js",
+            "size": 2361,
+            "id": 70
+          },
+          {
+            "name": "./node_modules/rxjs/observable/ArrayObservable.js",
+            "size": 4576,
+            "id": 71
+          },
+          {
+            "name": "./node_modules/resolve-pathname/index.js",
+            "size": 1797,
+            "id": 72
+          },
+          {
+            "name": "./node_modules/value-equal/index.js",
+            "size": 1136,
+            "id": 73
+          },
+          {
+            "name": "./node_modules/symbol-observable/es/index.js",
+            "size": 403,
+            "id": 74
+          },
+          {
+            "name": "./node_modules/rxjs/Subject.js",
+            "size": 5613,
+            "id": 75
+          },
+          {
+            "name": "./src/root/root.component.styl",
+            "size": 97,
+            "id": 76
+          },
+          {
+            "name": "./node_modules/rxjs/observable/ScalarObservable.js",
+            "size": 1879,
+            "id": 77
+          },
+          {
+            "name": "./node_modules/rxjs/observable/EmptyObservable.js",
+            "size": 2972,
+            "id": 78
+          },
+          {
+            "name": "./node_modules/rxjs/util/isScheduler.js",
+            "size": 178,
+            "id": 79
+          },
+          {
+            "name": "./node_modules/history/DOMUtils.js",
+            "size": 2491,
+            "id": 80
+          },
+          {
+            "name": "./node_modules/symbol-observable/es/ponyfill.js",
+            "size": 333,
+            "id": 81
+          },
+          {
+            "name": "./node_modules/history/createMemoryHistory.js",
+            "size": 5816,
+            "id": 82
+          },
+          {
+            "name": "./node_modules/path-to-regexp/index.js",
+            "size": 10809,
+            "id": 83
+          },
+          {
+            "name": "./node_modules/rxjs/observable/of.js",
+            "size": 149,
+            "id": 84
+          },
+          {
+            "name": "./node_modules/rxjs/observable/from.js",
+            "size": 153,
+            "id": 85
+          },
+          {
+            "name": "./node_modules/rxjs/operator/filter.js",
+            "size": 3546,
+            "id": 86
+          },
+          {
+            "name": "./node_modules/rxjs/observable/merge.js",
+            "size": 128,
+            "id": 87
+          },
+          {
+            "name": "./node_modules/reduce-reducers/dist/index.js",
+            "size": 425,
+            "id": 88
+          },
+          {
+            "name": "./node_modules/history/createHashHistory.js",
+            "size": 10053,
+            "id": 89
+          },
+          {
+            "name": "./node_modules/lodash-es/_freeGlobal.js",
+            "size": 171,
+            "id": 90
+          },
+          {
+            "name": "./node_modules/lodash-es/_overArg.js",
+            "size": 380,
+            "id": 91
+          },
+          {
+            "name": "multi ./src/main",
+            "size": 28,
+            "id": 93
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/createAll.js",
+            "size": 8396,
+            "id": 94
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/ConnectedRouter.js",
+            "size": 12587,
+            "id": 95
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1492,
+            "id": 96
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 97
+          },
+          {
+            "name": "./node_modules/react-router/es/index.js",
+            "size": 637,
+            "id": 98
+          },
+          {
+            "name": "./node_modules/path-to-regexp/node_modules/isarray/index.js",
+            "size": 120,
+            "id": 99
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/reducer.js",
+            "size": 7684,
+            "id": 100
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/middleware.js",
+            "size": 7207,
+            "id": 101
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/structure/plain/index.js",
+            "size": 7423,
+            "id": 102
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/structure/plain/getIn.js",
+            "size": 6273,
+            "id": 103
+          },
+          {
+            "name": "./node_modules/connected-react-router/lib/structure/plain/setIn.js",
+            "size": 7183,
+            "id": 104
+          },
+          {
+            "name": "./node_modules/rxjs/util/ObjectUnsubscribedError.js",
+            "size": 955,
+            "id": 105
+          },
+          {
+            "name": "./node_modules/rxjs/SubjectSubscription.js",
+            "size": 1401,
+            "id": 106
+          },
+          {
+            "name": "./node_modules/rxjs/observable/FromObservable.js",
+            "size": 5035,
+            "id": 107
+          },
+          {
+            "name": "./node_modules/rxjs/observable/PromiseObservable.js",
+            "size": 4676,
+            "id": 108
+          },
+          {
+            "name": "./node_modules/rxjs/observable/IteratorObservable.js",
+            "size": 5029,
+            "id": 109
+          },
+          {
+            "name": "./node_modules/rxjs/observable/ArrayLikeObservable.js",
+            "size": 2562,
+            "id": 110
+          },
+          {
+            "name": "./node_modules/rxjs/operator/observeOn.js",
+            "size": 5627,
+            "id": 111
+          },
+          {
+            "name": "./node_modules/rxjs/Notification.js",
+            "size": 4763,
+            "id": 112
+          },
+          {
+            "name": "./node_modules/rxjs/operator/merge.js",
+            "size": 6263,
+            "id": 113
+          },
+          {
+            "name": "./node_modules/rxjs/operator/mergeAll.js",
+            "size": 4366,
+            "id": 114
+          },
+          {
+            "name": "./package.json",
+            "size": 2395,
+            "id": 115
+          },
+          {
+            "name": "./src/main.tsx + 95 modules",
+            "size": 72959,
+            "id": 116
+          },
+          {
+            "name": "./node_modules/lodash-es/isBuffer.js",
+            "size": 1112,
+            "id": 117
+          },
+          {
+            "name": "./node_modules/lodash-es/stubFalse.js",
+            "size": 278,
+            "id": 118
+          }
+        ]
+      }
+    ],
+    "pureCssSize": 134,
+    "unPureCssSize": 134
+  }
+]
