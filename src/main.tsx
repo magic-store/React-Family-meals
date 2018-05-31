@@ -1,13 +1,11 @@
+import React from 'react'
 import { ConnectedRouter } from 'connected-react-router'
 import { Provider } from 'react-redux'
 import * as ReactDOM from 'react-dom'
 import { store, history } from 'store'
-import React from 'react'
-import 'rxjs'
+import { GlobalRoute } from './route'
 
 import './common'
-
-import { Root as RootComponent } from 'root'
 
 if (module.hot) {
   module.hot.accept()
@@ -19,7 +17,7 @@ class AppComponent extends React.PureComponent {
       <Provider store={store}>
         <ConnectedRouter history={history}>
           <div className="container">
-            <RootComponent />
+            <GlobalRoute />
           </div>
         </ConnectedRouter>
       </Provider>

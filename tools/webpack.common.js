@@ -33,8 +33,7 @@ module.exports = {
       '.web.js',
       '.js',
       '.ts',
-      '.tsx',
-      '.css'
+      '.tsx'
     ]
   },
   resolveLoader: {
@@ -45,7 +44,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         include: path.resolve('src'),
-        use: ['cache-loader', 'happypack/loader?id=ts']
+        use: ['cache-loader', 'ts-loader']
       },
       {
         test: /\.(svg|cur)$/,

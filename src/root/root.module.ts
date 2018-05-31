@@ -1,10 +1,15 @@
+import 'rxjs/add/operator/map'
 import { combineEpics } from 'redux-observable'
 import { EpicInput } from 'store'
 import { handleActions, createAction, Action } from 'redux-actions'
-import 'rxjs/operator/switchMap'
+
+export interface RouteData {
+  routerName: string
+  routerPath: string
+}
 
 export type RootState = {
-  name: string
+  list: RouteData[]
 }
 
 const nameSpace = (name: string) => `ROOT/${name}`
@@ -12,25 +17,28 @@ const nameSpace = (name: string) => `ROOT/${name}`
 // Actions
 export const action = {
   getUserMe: createAction(nameSpace('GET_USER_ME')),
-  getUserMeSuccess: createAction<{ name: string }>(
+  getUserMeSuccess: createAction<{ list: RouteData[] }>(
     nameSpace('GET_USER_ME_SUCCESS')
   )
 }
 
-// Epic
 const getUserMeEpic = (action$: EpicInput<any>) => {
-  console.info(action$, 'action$')
   return action$.ofType(action.getUserMe.toString()).map(r => {
     return action.getUserMeSuccess({
-      name: '我是最屌的'
+      list: [
+        { routerName: 'One', routerPath: 'one' },
+        { routerName: 'Two', routerPath: 'two' },
+        { routerName: 'Three', routerPath: 'three' }
+      ]
     })
   })
 }
 
+// Epics
 export const epics = combineEpics<any>(getUserMeEpic)
 
 export const defaultState: RootState = {
-  name: 'wave'
+  list: [{ routerName: 'One', routerPath: '/' }]
 }
 
 // Reducer
@@ -38,12 +46,11 @@ export const reducer = handleActions<RootState, any>(
   {
     [`${action.getUserMeSuccess}`]: (
       state,
-      action: Action<{ name: string }>
+      action: Action<{ list: RouteData[] }>
     ) => {
-      console.info(action)
       return {
         ...state,
-        name: action.payload.name
+        list: action.payload.list
       }
     }
   },

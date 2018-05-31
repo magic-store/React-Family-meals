@@ -19,5 +19,5 @@ const uiReducer = {
 }
 
 export const rootReducer = combineReducers<GlobalState>({
-  ui: combineReducers<GlobalState>(uiReducer)
+  ui: combineReducers<GlobalUIState>(uiReducer)
 })

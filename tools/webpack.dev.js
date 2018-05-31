@@ -29,7 +29,8 @@ module.exports = webpackMerge(commonConfig, {
     host: 'localhost', // 默认是localhost
     port: 3000, // 端口
     open: true, // 自动打开浏览器
-    hot: true // 开启热更新
+    hot: true, // 开启热更新
+    historyApiFallback: true
   },
 
   module: {
