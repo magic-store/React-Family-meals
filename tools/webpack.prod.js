@@ -22,8 +22,7 @@ const cssOption = {
 const config = webpackMerge(commonConfig, {
   mode: 'production',
   output: {
-    filename: jsName,
-    publicPath: `http://www.example.com/${packageJSON.name}/`
+    filename: jsName
   },
   module: {
     rules: [
