@@ -14,8 +14,8 @@
 ## Usage
 
 ```sh
-1. yarn add global wave-cli # 我的cli
-2. wave-cli install
+1. yarn add global forbes # 我的cli
+2. forbes install
 3. choose React-Family-Meals
 ```
 
