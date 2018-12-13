@@ -27,8 +27,7 @@ const getUserMeEpic = (action$: EpicInput<any>) => {
     return action.getUserMeSuccess({
       list: [
         { routerName: 'One', routerPath: 'one' },
-        { routerName: 'Two', routerPath: 'two' },
-        { routerName: 'Three', routerPath: 'three' }
+        { routerName: 'Two', routerPath: 'two' }
       ]
     })
   })
