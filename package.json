@@ -1,6 +1,6 @@
 {
   "name": "react-family-meals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "web application",
   "scripts": {
     "build": "webpack --config ./tools/webpack.prod.js",
